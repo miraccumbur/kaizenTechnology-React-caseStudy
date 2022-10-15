@@ -1,0 +1,11 @@
+$color-red-F40000:#F40000;
+$color-white-FFFFFF:#FFFFFF;
+$color-grey-1D1E1C:#1D1E1C;
+
+@mixin font-open-sans($weight,$style,$size,$space) {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:$weight;
+    font-style: $style;
+    font-size: $size;
+    letter-spacing:$space ;
+}
